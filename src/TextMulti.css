@@ -1,0 +1,44 @@
+input.inputPlayer{
+    height: 30px;
+    width: 200px;
+    padding-inline: 10px;
+    border: 2px solid white;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+}
+input.inputMultiPlayer {
+    height: 30px;
+    width: 200px;
+    padding-inline: 10px;
+    border: 2px solid white;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+}
+.nameButtonSecond,.nameButtonFirst{
+    height: 36px;
+    width: 36px;
+    margin-left: 5px;
+    border: 2px solid white;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+.nameButtonFirst:hover{
+    color: rgb(235, 211, 0);
+    border-color: rgb(235, 211, 0);
+}
+.nameButtonSecond:hover{
+    color: rgb(235, 211, 0);
+    border-color: rgb(235, 211, 0);
+}
+.firstPlayer{
+    display: block;
+}
+.secondPlayer{
+    display: none;
+}

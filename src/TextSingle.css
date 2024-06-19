@@ -1,0 +1,14 @@
+.nameButtonSingle{
+    height: 36px;
+    width: 36px;
+    margin-left: 5px;
+    border: 2px solid white;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+.nameButtonSingle:hover{
+    color: rgb(235, 211, 0);
+    border-color: rgb(235, 211, 0);
+}
